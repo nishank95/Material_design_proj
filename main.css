@@ -1,0 +1,91 @@
+   .tabs { position: absolute;
+    left: 0;
+    right: 0;
+    width: 726px;
+    margin: 145px auto;
+    z-index: 99999;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+-webkit-box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3);
+    -moz-box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3);
+    box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3);
+}
+tabs-nav ul {
+    margin: 0;
+    padding: 0;}
+p:last-child, ul:last-child {
+    margin-bottom: 0;}
+ul {
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+p, ul {
+    margin: 0 0 3% 0;
+    line-height: 1.8em;
+}
+.tabs-nav li:first-child {
+    margin-left: 0;
+    border-left: 0;
+}
+.tabs-nav li {
+    width: 242px;
+    padding: 8% 3% 3% 3%;
+    display: inline-block;
+    /* white-space: nowrap; */
+    zoom: 1;
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E0E0E0;
+    cursor: pointer;
+    margin-left: -5px;
+    margin-bottom: 0;
+    border-right: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    background-color: #F7F7F7;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+li {
+    margin-bottom: 1%;
+}
+.tabs-nav li:last-child {
+    border-right: 0;
+    border-left: 0;
+}
+.active, li.active {
+    color: #EDBDBD;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+.tab-container {
+    width: 100%;
+    padding: 6%;
+    background-color: #fff;
+}
+.hide {
+    display: none;
+}
+ @media (max-width: 800px) {
+    .tabs {
+      position: static;
+      width: 90%;
+      margin: 4% auto; } }
+@media (max-width: 800px) {
+  .tabs-nav li {
+    width: 33.34%;
+    padding: 0; } }
+@media (max-width: 800px) {
+  .icon-code, .icon-gear, .icon-info {
+    line-height: 3; } }
+@media (max-width: 500px) {
+  .icon-code:before, .icon-gear:before, .icon-info:before {
+    font-size: 28px;
+    font-size: 2.8rem; } }
