@@ -1,0 +1,209 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #A6881F;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 825px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: -25px;
+   
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+    .grey-text.text-lighten-3
+    {
+        font-size: 17px;
+        margin-top: 2px;
+    }
+    .slider-heading{
+        font-size: 29px;
+    }
+    .header-button {
+    margin-top: 7px;
+}
+    .btn-floating.btn-large {
+    left: 298px;
+    top: -30px;
+    width: 56.5px;
+    height: 56.5px;
+    }
+    .btn-floating.btn-large i {
+    line-height: 56.5px;
+}
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.work-gray-box {
+    background-color: rgb(204,216,224);
+    width: 100%;
+    position: relative;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.work-gray-box {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#slide2 {
+    padding: 24px 0 !important;
+}
+
+.img-responsive.container.tailor_header {
+    max-width: 870px;
+}
+
+.how-image {
+    width: 100%;
+    height: 80%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+.container {
+        padding-right: 60px;
+        padding-left: 60px
+    }
+
+}.container 
+.container {
+    border-radius: 6px
+}
+
+
+.container:after,
+.container:before,{
+    display: table;
+    content: " "
+}
+.container:after{
+    clear: both
+}
+
+
+
+
+
+
+
+
+
+.page-heading {
+        color: #fff;
+    font-family: "Arvo";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.works-img {
+        width: 100%;
+    height: 100%;
+   
+    margin-top: 50px;
+}
+
+.work-header {
+    color:#00375C;
+    font-size: 3.6rem;
+    font-family: headingfont1;
+    text-shadow: #444343 4px -1px 11px;
+}
+
+.services-cards {
+   box-shadow: 2px 6px 20px 0px rgba(66, 66, 66, 0.13), 2px 2px 24px 1px rgba(76, 69, 37, 0.29);
+}
+
+.appointment-footer {
+    /* margin-left: 225px; */
+    margin-top: -50px;
+    font-family: headingfont1;
+    font-size: 40px;
+    color:black;
+}
+
+.number-footer {
+    margin-top: 35px;
+    font-family: headingfont1;
+    font-size: 40px;
+    color: rgb(53, 92, 251);
+}
+
+
+
+
